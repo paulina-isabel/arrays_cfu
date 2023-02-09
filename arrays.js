@@ -8,3 +8,9 @@ var merchQuantity = [6, 12, 24, 72];
 merchQuantity.push (100);
 console.log(merchQuantity);
 
+//Index Positions are used to access elements from an array. 
+//We need to use brackets and a number that corresponds with that element. 
+//Counting starts with the number 0, and carries through the end of the elements.
+//For example, in my plants variable above, Monstera is 0, Pothos is 1, and so on.
+//If I want to access "ZZ Plant" I will make sure to use the following
+//   console.log(plants[3])
