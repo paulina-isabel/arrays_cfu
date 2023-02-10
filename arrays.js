@@ -14,3 +14,9 @@ console.log(merchQuantity);
 //For example, in my plants variable above, Monstera is 0, Pothos is 1, and so on.
 //If I want to access "ZZ Plant" I will make sure to use the following
 //   console.log(plants[3])
+
+var answers = [true, true, false, false]
+//In this call I'm using the shift method which removes the first element of the array
+//As a result, this also changes the length of the array
+answers.shift ();
+console.log(answers)
